@@ -25,7 +25,7 @@ export const SITE: Site = {
     weight: 400,
     upper: false,
   },
-  scene: "pour",
+  scene: "feast",
   align: "left",
   hero: {
     title: [
