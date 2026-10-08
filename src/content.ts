@@ -1,0 +1,111 @@
+import "@fontsource/yatra-one/400.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Chai Tapri Cafe",
+  sub: { en: "Kulhad chai, momos & live music · NH-248A, Sohna", hi: "कुल्हड़ चाय, मोमोज़ और लाइव म्यूज़िक · NH-248A, सोहना" },
+  banner: { en: "Open mic and live music nights. Ask what's on", hi: "ओपन माइक और लाइव म्यूज़िक की रातें। पूछिए आज क्या है" },
+  phone: "919992747656",
+  phoneDisplay: "+91 99927 47656",
+  lat: 28.2575968,
+  lon: 77.067475,
+  hours: [[7, 25], [7, 25], [7, 25], [7, 25], [7, 25], [7, 25], [7, 25]],
+  theme: {
+    dark: true,
+    bg: "#160d07",
+    bg2: "#1e130a",
+    panel: "#25170d",
+    ink: "#fff1df",
+    ink2: "#d9c2a6",
+    ink3: "#9c8569",
+    line: "#3b2715",
+    accent: "#ff9a3c",
+    onAccent: "#2a1000",
+    display: "Yatra One",
+    weight: 400,
+    upper: false,
+  },
+  scene: "pour",
+  align: "left",
+  hero: {
+    title: [
+      { en: "Kulhad chai,", hi: "कुल्हड़ चाय," },
+      { en: "live music, late nights.", hi: "लाइव म्यूज़िक, देर रात तक।" },
+    ],
+    proof: {
+      en: "4.6 on Google from 77 reviews. Kulhad tea, bun maska malai and in-house momos, open 7am to 1am on NH-248A, Sohna.",
+      hi: "गूगल पर 77 रिव्यू से 4.6। कुल्हड़ चाय, बन मस्का मलाई और घर के बने मोमोज़, सुबह 7 से रात 1 बजे तक, NH-248A, सोहना।",
+    },
+    fallback: "/img/p7.jpg",
+  },
+  marquee: ["Kulhad Chai", "Bun Maska Malai", "Veg Momos", "Sandwich", "Maggi", "Cold Coffee", "Open Mic", "Live Music"],
+  dishes: {
+    title: { en: "Order these first", hi: "पहले ये मंगाइए" },
+    body: { en: "Every line is a real Google review.", hi: "हर लाइन असली गूगल रिव्यू है।" },
+    layout: "list",
+    items: [
+      { name: { en: "Bun Maska Malai & Kulhad Tea", hi: "बन मस्का मलाई और कुल्हड़ चाय" }, quote: "Their hero dish is the Bun Maska Malai—a total must-try—and the kulhad tea is the real superstar here.", img: "/img/p7.jpg" },
+      { name: { en: "In-house Momos", hi: "घर के बने मोमोज़" }, quote: "Amazing Tea! Very good ambiance. Must try their in house momos!", img: "/img/p5.jpg" },
+      { name: { en: "Veg Momos", hi: "वेज मोमोज़" }, quote: "Food was amazing. Specially try veg momos" },
+    ],
+  },
+  gallery: { title: { en: "", hi: "" }, layout: "strip", photos: [] },
+  feature: {
+    kind: "daynight",
+    title: { en: "Morning chai, night music", hi: "सुबह की चाय, रात का म्यूज़िक" },
+    body: { en: "Same tapri, two moods.", hi: "एक ही टपरी, दो मूड।" },
+    day: {
+      label: { en: "From 7am", hi: "सुबह 7 बजे से" },
+      body: { en: "Chai and a fresh sandwich.", hi: "चाय और ताज़ा सैंडविच।" },
+      img: "/img/p7.jpg",
+      quote: "perfect spot to chill! The chai had a rich flavor and the sandwich was fresh and tasty.",
+    },
+    night: {
+      label: { en: "Till 1am", hi: "रात 1 बजे तक" },
+      body: { en: "Live music and open mic.", hi: "लाइव म्यूज़िक और ओपन माइक।" },
+      img: "/img/p1.jpg",
+      quote: "Live music and open mic sessions are add-on. All-in-all it's a good spot for dine-in with friends or family in SOHNA.",
+    },
+  },
+  reviews: {
+    title: { en: "67 of 77 reviews are five stars", hi: "77 में से 67 रिव्यू पांच स्टार" },
+    rating: 4.6,
+    dist: [67, 2, 1, 0, 7],
+    quotes: [
+      { quote: "Wonderful place to chill. Sohna needed this.", stars: 5 },
+      { quote: "Great food combined with music and singing. There is no such cafe in this region. Great concept!! Keep it up", stars: 5 },
+      { quote: "This place is absolutely beautiful, and the food honestly deserves a 6-star rating!", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "On NH-248A, Saini Colony", hi: "NH-248A, सैनी कॉलोनी" },
+    img: "/img/p1.jpg",
+    alt: "Inside Chai Tapri Cafe",
+    address: { en: "NH-248A, Saini Colony, Sohna", hi: "NH-248A, सैनी कॉलोनी, सोहना" },
+    note: { en: "Open 7am to 1am, every day.", hi: "हर दिन सुबह 7 से रात 1 बजे तक।" },
+  },
+  pour: { from: "jug", into: "kulhad", liquid: "#b07040", foam: "#d9a878", thick: 1.4, hot: true },
+  story: [
+    { kicker: { en: "The chai", hi: "चाय" }, title: { en: "The kulhad is the star.", hi: "कुल्हड़ ही असली स्टार है।" }, quote: "the kulhad tea is the real superstar here." },
+    { kicker: { en: "The bun", hi: "बन" }, title: { en: "Bun maska malai, a must.", hi: "बन मस्का मलाई, ज़रूर खाइए।" }, quote: "Their hero dish is the Bun Maska Malai—a total must-try" },
+    { kicker: { en: "The nights", hi: "रातें" }, title: { en: "Sohna needed this.", hi: "सोहना को इसकी ज़रूरत थी।" }, quote: "Wonderful place to chill. Sohna needed this." },
+  ],
+  build: {
+    title: { en: "Build your order in a few taps", hi: "कुछ टैप में अपना ऑर्डर बनाइए" },
+    body: { en: "Tap what you want, set how many and when. It goes to WhatsApp exactly as you see it.", hi: "जो चाहिए टैप करें, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    items: [
+      { en: "Kulhad Chai", hi: "कुल्हड़ चाय" },
+      { en: "Bun Maska Malai", hi: "बन मस्का मलाई" },
+      { en: "Veg Momos", hi: "वेज मोमोज़" },
+      { en: "Sandwich", hi: "सैंडविच" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Chai Tapri, I'd like:", hi: "नमस्ते चाय टपरी, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi Chai Tapri Cafe, I'd like to order. Items: , pickup / sit-in: , time: ",
+    hi: "नमस्ते चाय टपरी कैफ़े, मुझे ऑर्डर देना है। आइटम: , पिकअप / बैठकर: , समय: ",
+  },
+  order: ["build", "feature", "dishes", "reviews", "visit"],
+};
